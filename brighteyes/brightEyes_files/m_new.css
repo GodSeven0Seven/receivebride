@@ -48,7 +48,7 @@ body>a{ display: none; }
     height: 30px;
     font-weight: bold;
     background-color: #fbb957;/*#f4a83a;*/
-    color: #f2e6ce;/*#f0d695;*/
+    color: #f8e0b0;/*#f0d695;*/
     padding: 0 10px;
     border-radius: 20px;
 }
@@ -85,13 +85,13 @@ body>a{ display: none; }
     font-size: 20px;
     font-weight: bold;
     background-color: #fbb957;/*#f4a83a;*/
-    color: #f2e6ce;/*#f0d695;*/
+    color: #f8e0b0;/*#f0d695;*/
     padding: 0 10px;
     border-radius: 20px;
 }
 #room header .time.danger{
     color: #FF0505;
-    background-color: #f2e6ce;
+    background-color: #f8e0b0;
 }
 
 #help{
