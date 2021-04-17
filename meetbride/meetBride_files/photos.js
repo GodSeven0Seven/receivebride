@@ -42,11 +42,11 @@ choose = function(option,numOrder){
 		btn[0].style.display = "block";
 		//var btn1 = btn[0].getElementsByTagName("button")[0];
 		if(option=="ans"){
+			alert("对了！还算靠谱！");
 			choices[numArr[0]].innerHTML='<img src="./meetBride_files/photos/ans1.png" />';
 			choices[numArr[1]].innerHTML='<img src="./meetBride_files/photos/1-1.png" />';					
 			btn[0].innerHTML="对了！还算靠谱！";			
 			res = 1;
-			//alert("对了！还算靠谱！");
 		}
 		else{
 			//choices[numArr[0]].innerHTML='<img src="./meetBride_files/photos/ans2s.png" />';
@@ -56,8 +56,8 @@ choose = function(option,numOrder){
 			for(var i=0;i<choices.length;i++){
 				choices[numArr[i]].getElementsByTagName("img")[0].removeAttribute("onclick");
 			}
+			alert("错了！直接打道回府吧！");
 			btn[0].innerHTML="错了！直接打道回府吧！";
-			//alert("错了！直接打道回府吧！");
 		}
 		btn[0].onclick = function(){ 
 				goon(res); 
@@ -66,20 +66,21 @@ choose = function(option,numOrder){
 	else if(lv == "level2"){
 		btn[1].style.display = "block";
 		if(option=="ans"){
+			alert("对了！熟稔有加！");
 			choices[numArr[0]].innerHTML='<img src="./meetBride_files/photos/ans2.png" />';
 			choices[numArr[1]].innerHTML='<img src="./meetBride_files/photos/2-1.png" />';
 			choices[numArr[2]].innerHTML='<img src="./meetBride_files/photos/2-2.png" />';			
 			btn[1].innerHTML="对了！熟稔有加！";
 			res = 2;
-			//alert("对了！熟稔有加！");
 		}
 		else{
 			choices[option].innerHTML='<img src="./meetBride_files/photos/2-'+ numOrder +'.png" />';
 			for(var i=0;i<choices.length;i++){
 				choices[numArr[i]].getElementsByTagName("img")[0].removeAttribute("onclick");
 			}
+			alert("错了！公子可长点心吧！");
 			btn[1].innerHTML="错了！公子可长点心吧！";
-			//alert("错了！兄台你长点心吧！");
+			//alert("错了！公子可长点心吧！");
 		}
 		btn[1].onclick = function(){ 
 				goon(res); 
@@ -88,21 +89,21 @@ choose = function(option,numOrder){
 	else if(lv == "level3"){
 		btn[2].style.display = "block";
 		if(option=="ans"){
+			alert("对了！了解透彻！");
 			choices[numArr[0]].innerHTML='<img src="./meetBride_files/photos/ans3.png" />';
 			choices[numArr[1]].innerHTML='<img src="./meetBride_files/photos/3-1.png" />';
 			choices[numArr[2]].innerHTML='<img src="./meetBride_files/photos/3-2.png" />';
 			choices[numArr[3]].innerHTML='<img src="./meetBride_files/photos/3-3.png" />';
 			btn[2].innerHTML="对了！了解透彻！";
 			res = 3;
-			//alert("对了！了解透彻！");
 		}
 		else{
 			choices[option].innerHTML='<img src="./meetBride_files/photos/3-'+ numOrder +'.png" />';
 			for(var i=0;i<choices.length;i++){
 				choices[numArr[i]].getElementsByTagName("img")[0].removeAttribute("onclick");
 			}
+			alert("错了！花花世界迷眼吧！");
 			btn[2].innerHTML="错了！花花世界迷眼吧！";
-			//alert("错了！花花世界迷眼吧！");
 		}
 		btn[2].onclick = function(){ 
 				goon(res); 
