@@ -1,10 +1,10 @@
 # takebridehome
-# brighteyes
+# game1:brighteyes
 Link:  
 https://godseven0seven.github.io/takebridehome/brighteyes/  
 Brief:  
 Pick the color different from others in 1 minute.The more the better.
-# meetbride
+# game2:meetbride
 Link:  
 https://godseven0seven.github.io/takebridehome/meetbride/  
 Brief:  
